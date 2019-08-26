@@ -1,0 +1,55 @@
+{
+  "name": "message-relay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG='*:info,*:error,*:warn' nodemon --inspect index.js"
+  },
+  "author": "Mohan <mohan589@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint-plugin-standard": "4.0.0",
+    "eslint-watch": "^4.0.2",
+    "nodemon": "^1.19.1",
+    "prettier-eslint": "^8.8.2",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "dependencies": {
+    "esm": "^3.0.84",
+    "express": "^4.16.4",
+    "express-async-wrap": "^1.0.0",
+    "express-session": "^1.15.6",
+    "websocket": "^1.0.29"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "jest": true,
+      "node": true
+    },
+    "extends": "standard",
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {}
+  }
+}
