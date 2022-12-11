@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "esm": "^3.0.84",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-async-wrap": "^1.0.0",
     "express-session": "^1.15.6",
     "websocket": "^1.0.29"
